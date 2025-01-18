@@ -1,0 +1,19 @@
+{
+  "name": "secure-check",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cross-spawn": "^7.0.6",
+    "leven": "^4.0.0",
+    "ora": "^5.4.1",
+    "semver": "^7.6.3"
+  }
+}
