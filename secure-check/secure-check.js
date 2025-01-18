@@ -177,29 +177,6 @@ function gatherLocalPackages(modulesDir) {
   return results;
 }
 
-function fetchLatestVersion(pkgName) {
-    const result = spawnSync('npm', ['view', pkgName, 'version', '--json'], {
-      encoding: 'utf-8',
-    });
-    if (result.error) {
-      throw new Error(`Failed to fetch version for "${pkgName}": ${result.error.message}`);
-    }
-  
-    const output = result.stdout.trim();
-    if (!output) {
-      throw new Error(`No version info returned for "${pkgName}".`);
-    }
-  
-    let latest = '';
-    try {
-      latest = JSON.parse(output);
-    } catch (err) {
-      throw new Error(`Could not parse npm view output for "${pkgName}": ${output}`);
-    }
-  
-    return latest;
-  }
-
 async function main() {
   console.log(chalk.bold.cyan('\n== ProteccCIL ==\n'));
   const auditData = runNpmAudit();
