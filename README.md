@@ -1,6 +1,6 @@
 # ProteccAPI CLI Tool
 
-**ProtectAPI** is a CLI tool to detect and manage sensitive API keys in your codebase. It supports detecting common API keys and managing them securely by suggesting environment variable usage. It also integrates with Git pre-commit hooks to prevent committing sensitive keys.
+**ProtectAPI** is a CLI tool to detect and manage sensitive API keys in your codebase. It supports detecting common API keys and managing them securely by suggesting environment variable usage. It also integrates with Git pre-commit hooks to prevent committing sensitive keys. Furthermore, it helps improve security of the code by identifying vulnerabilities and suspicious packages. 
 
 ---
 
@@ -8,9 +8,13 @@
 
 - Detects common API keys such as AWS, GitHub, OpenAI, Google Cloud, Stripe, and more.
 - Provides a CLI interface for scanning and handling API keys.
+- Security Scoring: Provides a comprehensive security score (0.0–10.0) to give an overall assessment of your repository’s security.
 - Automatically generates or updates a `.env` file with detected API keys.
+- Vulnerability Assessment: Scans for known vulnerabilities in project dependencies and detects typosquatting
+- Automatically Creates a git ignore for sensitive files
 - Suggests replacing sensitive keys in your code with environment variables.
 - Blocks commits with exposed API keys using Git hooks.
+- Suspicious Script Detection: Flags potentially harmful lifecycle scripts in package.json
 - Secure Scan is now available as a VSCode extension: ProteccAPI, offering real-time detection of sensitive keys directly within your code editor. Available on the VSCode Marketplace.
 
 ---
