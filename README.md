@@ -1,6 +1,6 @@
 # ProteccAPI CLI Tool
 
-**ProtectAPI** is a CLI tool to detect and manage sensitive API keys in your codebase. It supports detecting common API keys and managing them securely by suggesting environment variable usage. It also integrates with Git pre-commit hooks to prevent committing sensitive keys. Furthermore, it helps improve security of the code by identifying vulnerabilities and suspicious packages. 
+**ProtectAPI** is a CLI tool to detect and manage sensitive API keys in your codebase. It supports detecting common API keys and managing them securely by suggesting environment variable usage. It also integrates with Git pre-commit hooks to prevent committing sensitive keys. Furthermore, it helps improve security of the code by identifying vulnerabilities and suspicious packages. Additionally, feel free to check out our VSCode Extension [here](https://marketplace.visualstudio.com/items?itemName=StevenQiao.ProteccAPI) !
 
 ---
 
