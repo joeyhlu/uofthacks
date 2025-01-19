@@ -1,0 +1,37 @@
+{
+  "name": "ProteccAPI",
+  "displayName": "ProteccAPI",
+  "publisher": "StevenQiao",
+  "version": "1.0.5",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:myExtension.runProteccapiCLI"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "myExtension.runProteccapiCLI",
+        "title": "Run ProteccAPI CLI"
+      }
+    ]
+  },
+  "dependencies": {
+    "proteccapi": "^2.0.0"
+  },
+  "scripts": {
+    "postinstall": "npm install"
+  },
+  "files": [
+    "node_modules/bin",
+    "node_modules/secure-scan/**/*",
+    "extension.js",
+    "package.json",
+    ".vscodeignore"
+  ]
+}
