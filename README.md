@@ -11,6 +11,7 @@
 - Automatically generates or updates a `.env` file with detected API keys.
 - Suggests replacing sensitive keys in your code with environment variables.
 - Blocks commits with exposed API keys using Git hooks.
+- Secure Scan is now available as a VSCode extension: ProteccAPI, offering real-time detection of sensitive keys directly within your code editor. Available on the VSCode Marketplace.
 
 ---
 
@@ -147,6 +148,17 @@ Output:
 
 ❌ Commit blocked! Remove or handle these keys before committing.
 ```
+
+## VSCode Extension
+1. Install ProteccAPI extension on VSCode MarketPlace.
+2. Open any folder that you are currently working on.
+3. Open Command Palette on your VSCode (`Cmd + Shift + P` on macOS, or `Ctrl + Shift + P` on Windows) and search for **“Run ProteccAPI CLI”**.
+4. Execute **“Run ProteccAPI CLI”** for a quick scan!
+
+**Example output:**
+
+<img width="303" alt="image" src="https://github.com/user-attachments/assets/0bf42aad-7711-4d17-8532-8c699bfd99b4" />
+
 ## License
 Secure Scan is open-source software licensed under the MIT License.
 
