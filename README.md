@@ -154,7 +154,7 @@ Output:
 ```
 
 ## VSCode Extension
-1. Install ProteccAPI extension on VSCode MarketPlace.
+1. Install ProteccAPI extension (v 1.0.6) on VSCode MarketPlace.
 2. Open any folder that you are currently working on.
 3. Open Command Palette on your VSCode (`Cmd + Shift + P` on macOS, or `Ctrl + Shift + P` on Windows) and search for **“Run ProteccAPI CLI”**.
 4. Execute **“Run ProteccAPI CLI”** for a quick scan!
