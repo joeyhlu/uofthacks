@@ -1,6 +1,6 @@
-# Secure Scan CLI Tool
+# ProteccAPI CLI Tool
 
-**Secure Scan** is a CLI tool to detect and manage sensitive API keys in your codebase. It supports detecting common API keys and managing them securely by suggesting environment variable usage. It also integrates with Git pre-commit hooks to prevent committing sensitive keys.
+**ProtectAPI** is a CLI tool to detect and manage sensitive API keys in your codebase. It supports detecting common API keys and managing them securely by suggesting environment variable usage. It also integrates with Git pre-commit hooks to prevent committing sensitive keys.
 
 ---
 
